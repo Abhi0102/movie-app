@@ -5,9 +5,96 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: lightgray;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ---------- Tabs ----------  */
+.tabs{
+  margin: 2% 12%;
+  display: flex;
+  /* border: 2px solid red; */
+  /* height: 40px; */
+  /* justify-content: space-evenly; */
+}
+
+.tab{
+  border: 2px solid black;
+  margin-right: 2%;
+  font-size: 1rem;
+  padding: 0.2rem;
+  background-color: whitesmoke;
+  /* justify-content: space-between; */
+}
+
+
+/* ---------- Navbar ---------- */
+
+.navbar{
+  background-color: #292828;
+}
+
+.search-container{
+  /* margin-top: 1%; */
+  padding: 1%;
+  display: flex;
+  height: 35px;
+  justify-content: center;
+}
+
+.search-container input{
+  width: 35%;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.search-container button{
+  font-size: 1rem;
+  background-color: coral;
+  border: 0px;
+  border-radius: 5px;
+}
+
+/* ---------- Movie Card ---------- */
+
+.movie-card{
+  border: 2px solid black;
+  display: flex;
+  margin: 2% 12%;
+  max-height: 300px;
+  box-shadow: 5px 5px #888888;
+  background-color: whitesmoke;
+}
+.left{
+  max-width: 200px;
+  margin-right: 5%;
+}
+.movie-card .left img{
+  height: 100%;
+  width: 100%;
+
+}
+
+.right{
+  position: relative;
+  width: 100%;
+}
+
+.fav-btn{
+  background-color: #24A0ED;
+  color: white;
+  /* height: 40px; */
+  font-size: 1rem;
+  padding: 1%;
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+}
+
+
+
