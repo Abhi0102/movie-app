@@ -17,6 +17,7 @@ code {
 .tabs{
   margin: 2% 12%;
   display: flex;
+  margin-bottom: 0;
   /* border: 2px solid red; */
   /* height: 40px; */
   /* justify-content: space-evenly; */
@@ -24,12 +25,24 @@ code {
 
 .tab{
   border: 2px solid black;
-  margin-right: 2%;
+  border-bottom: 0px;
+  margin-right: 1%;
   font-size: 1rem;
-  padding: 0.2rem;
-  background-color: whitesmoke;
+  padding: 0.2rem 2rem;
   cursor: pointer;
   /* justify-content: space-between; */
+}
+
+.tab-reg{
+  background-color: whitesmoke;
+}
+.tab-highlight{
+  background-color: #24A0ED;
+  color: whitesmoke;
+}
+.tab:hover{
+  background-color: lightgrey;
+  color: black;
 }
 
 
@@ -67,10 +80,17 @@ code {
   border: 2px solid black;
   display: flex;
   margin: 2% 12%;
+  margin-top: 0;
   /* max-height: 300px; */
   box-shadow: 5px 5px #888888;
   background-color: whitesmoke;
 }
+
+.no-movie{
+  margin: 2% 12%;
+
+}
+
 .left{
   max-width: 200px;
   margin-right: 5%;
@@ -88,13 +108,22 @@ code {
 
 .fav-btn{
   background-color: #24A0ED;
-  color: white;
+  
   /* height: 40px; */
+}
+
+.btn{
   font-size: 1rem;
   padding: 1%;
   position: absolute;
   bottom: 2%;
   right: 2%;
+  color: white;
+  cursor: pointer;
+}
+
+.un-fav-btn{
+  background-color: red;
 }
 
 
