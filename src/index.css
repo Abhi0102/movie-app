@@ -28,6 +28,7 @@ code {
   font-size: 1rem;
   padding: 0.2rem;
   background-color: whitesmoke;
+  cursor: pointer;
   /* justify-content: space-between; */
 }
 
@@ -66,7 +67,7 @@ code {
   border: 2px solid black;
   display: flex;
   margin: 2% 12%;
-  max-height: 300px;
+  /* max-height: 300px; */
   box-shadow: 5px 5px #888888;
   background-color: whitesmoke;
 }

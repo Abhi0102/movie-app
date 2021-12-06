@@ -11,8 +11,8 @@ class MovieCard extends React.Component{
                 </div>
                 <div className='right'>
                     <div><h2>{movie.Title}</h2></div>
-                    <div><h3>{movie.Year}</h3></div>
-                    <footer><button className='fav-btn'>Add To Favourite</button></footer>
+                    <div><p>{movie.Plot}</p></div>
+                    <footer><button className='fav-btn'>Favourite</button></footer>
                 </div>
             </div>
         )
