@@ -5,10 +5,10 @@ import { createStore } from 'redux';
 import './index.css';
 import App from './component/App';
 import reportWebVitals from './reportWebVitals';
-import movies from './reducers';
+import combineReducers from './reducers';
 
 
-const store = createStore(movies);
+const store = createStore(combineReducers);
 ReactDOM.render(
   <React.StrictMode>
     <App store ={store}/>
